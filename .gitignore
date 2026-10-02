@@ -1,0 +1,65 @@
+# Unreal generated folders
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/*
+!Build/*/
+Build/*/**
+!Build/**/*.ico
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# IDE / solution files (regenerated from .uproject)
+.vs/
+.vscode/
+.idea/
+*.sln
+*.slnx
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vcxproj*
+*.xcodeproj
+*.xcworkspace
+
+# Visual Studio upgrade leftovers
+Backup/
+UpgradeLog*.htm
+_UpgradeReport_Files/
+
+# Compiled / build artifacts
+*.o
+*.pdb
+*.dll
+*.exe
+*.lib
+*.exp
+*.ilk
+*.app
+*.ipa
+*.apk
+*.pak
+*.ucas
+*.utoc
+
+# Packaged builds
+Packaged/
+Windows/
+WindowsNoEditor/
+
+# Per-user editor settings
+Content/Developers/
+Config/*User*.ini
+!Config/DefaultEditorPerProjectUserSettings.ini
+
+# Misc
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings
+.claude/settings.local.json
